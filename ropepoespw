@@ -151,13 +151,10 @@ L_84_.__namecall =
 	)
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_110_arg0)
-		if L_110_arg0 == "/pre" then
-		game.Players.LocalPlayer.Chatted:Connect(
-	function(L_112_arg0)
-		if L_112_arg0 == "/hrp" then
-		game.StarterGui:SetCore("SendNotification", {
+		if L_110_arg0 == "/pd" then
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
-    Text = "Prediction Check F9";
+    Text = "Check Prediction F9";
     Duration = 3;
 })
 wait(0)
@@ -179,7 +176,7 @@ game.Players.LocalPlayer.Chatted:Connect(
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_112_arg0)
 		if L_112_arg0 == "/hrp" then
-		game.StarterGui:SetCore("SendNotification", {
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
     Text = "HumanoidRootPart";
     Duration = 3;
@@ -197,9 +194,9 @@ wait(0)
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_112_arg0)
 		if L_112_arg0 == "/rs" then
-		game.StarterGui:SetCore("SendNotification", {
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
-    Text = "Prediction Reset";
+    Text = "HumanoidRootPart";
     Duration = 3;
 })
 wait(0)
@@ -215,7 +212,7 @@ wait(0)
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_113_arg0)
 		if L_113_arg0 == " /lt" then
-		game.StarterGui:SetCore("SendNotification", {
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
     Text = "LowerTorso";
     Duration = 3;
@@ -232,7 +229,7 @@ wait(0)
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_113_arg0)
 		if L_113_arg0 == "/up" then
-		game.StarterGui:SetCore("SendNotification", {
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
     Text = "UpperTorso";
     Duration = 3;
@@ -249,7 +246,7 @@ wait(0)
 game.Players.LocalPlayer.Chatted:Connect(
 	function(L_114_arg0)
 		if L_114_arg0 == "/ss" then
-		game.StarterGui:SetCore("SendNotification", {
+			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
     Text = "Screenshareable";
     Duration = 3;
