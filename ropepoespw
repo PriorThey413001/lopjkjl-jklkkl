@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
-    Text = "/lt /hrp /up /ss /rs /pre S+ S- ";
+    Text = "/lt /hrp /up /ss /rs /pd S+ S- ";
     Duration = 3;
 })
 wait(0)
@@ -196,7 +196,7 @@ game.Players.LocalPlayer.Chatted:Connect(
 		if L_112_arg0 == "/rs" then
 			  game.StarterGui:SetCore("SendNotification", {
     Title = "Syndicate";
-    Text = "HumanoidRootPart";
+    Text = "Resetted Prediction";
     Duration = 3;
 })
 wait(0)
